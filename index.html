@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="page2.html">Contact</a></li>
+                <li><a href="page3.html">À Propos</a></li>
+            </div>
+            </ul>
+        </nav>
+        
+    </header>
+    <div class="hero">
+        <img    id="img"    src="https://cdn.discordapp.com/attachments/1002174113374273567/1277904524937265193/Capture_decran_2024-08-27_091604.png?ex=66cf8595&is=66ce3415&hm=fc95a771be381798c6f9ab8f89f1ebbd623d59f6293f8043bffefdd24f8feeb9&" alt="photo">
+        <h1>Bonjour, je suis zakaria bouslimi</h1>
+        <p>Développeur web passionné par le développement, je maîtrise les technologies HTML, CSS et JavaScript  pour concevoir des sites web élégants.</p>
+    </div>
+
+    <section id="projects">
+        <h2 id="ttl">Mes Projets</h2>
+        <div class="project-container">
+            <div class="project" data-description="Description du Projet 1">
+                <img src="https://cdn.discordapp.com/attachments/1002174113374273567/1277585750472261662/Capture_decran_2024-08-26_120648.png?ex=66cfae33&is=66ce5cb3&hm=06405d7888bfa879b8e31e4418516f0e3066cab70ee42784264c58150f06100b&" alt="Projet 1" class="project-image">
+                <div class="project-description"> HTML Foundations </div>
+            </div>
+            <div class="project" data-description="Description du Projet 2">
+                <img src="https://cdn.discordapp.com/attachments/1002174113374273567/1278281038866550817/Capture_decran_2024-08-28_101211.png?ex=66d03b7c&is=66cee9fc&hm=50ccede57d6860f36615a4594488d97a8bb8c675f8bc885dc3322b4c9548243c&" alt="Projet 2" class="project-image">
+                <div class="project-description">CSS Essentials </div>
+            </div>
+            <div class="project" data-description="Description du Projet 3">
+                <img src="https://cdn.discordapp.com/attachments/1002174113374273567/1277576385673826345/Capture_decran_2024-08-26_113128.png?ex=66cfa57a&is=66ce53fa&hm=4f6de318e8e939656522a663e3bc6118f442defa2d8dce2511e1c9cf84c7203c&" alt="Projet 3" class="project-image">
+                <div class="project-description"> Advanced CSS</div>
+            </div>
+            <div class="project" data-description="Description du Projet 4">
+                <img src="https://cdn.discordapp.com/attachments/1002174113374273567/1278281312620511252/Capture_decran_2024-08-28_101317.png?ex=66d03bbe&is=66ceea3e&hm=1fb31b8905bd84e504bb3758885f9dcb5bc786508a0c91bd5014f8abfafe761a&" alt="Projet 4" class="project-image">
+                <div class="project-description">Javascript & The DOM</div>
+            </div>
+        </div>
+        </div>
+    </section>
+    
+    
+
+    <footer>
+        <p>&copy; 2024 Mon Portfolio. Tous droits réservés.</p>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div class="lightbox-caption" id="lightbox-caption"></div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
+
